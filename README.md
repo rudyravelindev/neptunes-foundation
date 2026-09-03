@@ -1,8 +1,4 @@
-# 🎨 Global Design System: Haiti Non-Profit Website
-
-This document defines the foundational styles, design tokens, and components for our platform. Adhering to this system ensures cultural resonance, modern web standards, and strict adherence to international accessibility guidelines (WCAG AA).
-
----
+# 🎨 Global Design System:
 
 ## 1. Color Palette (Heritage & Dignity System)
 
