@@ -1,5 +1,8 @@
 # 🎨 Global Design System: Haiti Non-Profit Website
 
+This document defines the foundational styles, design tokens, and components for our platform. Adhering to this system ensures cultural resonance, modern web standards, and strict adherence to international accessibility guidelines (WCAG AA).
+
+---
 
 ## 1. Color Palette (Heritage & Dignity System)
 
@@ -14,15 +17,21 @@ We use specific hex configurations to mirror traditional imagery while projectin
 
 ---
 
-## 2. Typography Hierarchy
+## 2. Typography Hierarchy (Inter & Roboto Font Pairing)
 
-We use a modern, clean sans-serif stack (e.g., Inter, system-ui) optimized for high readability across varying connection speeds.
+We use **The Modern & Trustworthy Choice** typography pairing. It is a clean, modern combination used by many global humanitarian organizations to establish authority and clear communication.
 
-*   **Heading 1 (Hero Elements):** `32px` | Bold (700) | Line-height: `1.2` | Color: `#0B5C8A`
-*   **Heading 2 (Section Anchors):** `24px` | Semi-Bold (600) | Line-height: `1.3` | Color: `#0B5C8A`
-*   **Heading 3 (Card Titles):** `20px` | Semi-Bold (600) | Line-height: `1.4` | Color: `#1F2937`
-*   **Body Text (Core Paragraphs):** `16px` | Regular (400) | Line-height: `1.6` | Color: `#1F2937`
-*   **Small/Muted Labels:** `14px` | Regular (400) | Line-height: `1.5` | Color: `#4B5563`
+*   **Headings Typeface:** `Inter` (Bold or Semi-Bold)
+    *   *Why it works:* High legibility for short, impactful text like titles.
+*   **Body & Paragraph Text Typeface:** `Roboto` (Regular)
+    *   *Why it works:* Feels familiar, open, and effortless to read in long-form paragraphs.
+
+### 📐 Scaling Guidelines
+*   **Heading 1 (Hero Elements):** `32px` | Bold (700) | Line-height: `1.2` | Font: `Inter` | Color: `#0B5C8A`
+*   **Heading 2 (Section Anchors):** `24px` | Semi-Bold (600) | Line-height: `1.3` | Font: `Inter` | Color: `#0B5C8A`
+*   **Heading 3 (Card Titles):** `20px` | Semi-Bold (600) | Line-height: `1.4` | Font: `Inter` | Color: `#1F2937`
+*   **Body Text (Core Paragraphs):** `16px` | Regular (400) | Line-height: `1.6` | Font: `Roboto` | Color: `#1F2937`
+*   **Small/Muted Labels:** `14px` | Regular (400) | Line-height: `1.5` | Font: `Roboto` | Color: `#4B5563`
 
 ---
 
@@ -63,7 +72,14 @@ Cards container modules sit beautifully against our global Light Slate layout ca
 Developers should map these foundational design variables straight into the main design stylesheet file:
 
 ```css
+/* Google Fonts Import */
+@import url('https://googleapis.com');
+
 :root {
+  /* Font Family Definitions */
+  --font-headings: 'Inter', system-ui, sans-serif;
+  --font-body: 'Roboto', system-ui, sans-serif;
+
   /* Colors */
   --color-primary: #0B5C8A;
   --color-accent: #F4B400;
