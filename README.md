@@ -10,10 +10,10 @@ We use specific hex configurations to mirror traditional imagery while projectin
 
 | Color | Role | Hex Code | Applied System Property | Intent & Usage |
 | :--- | :--- | :--- | :--- | :--- |
-| <img src="https://placeholder.com+" width="15" height="15"> **Primary Blue** | Core Brand | `#0B5C8A` | `--color-primary` | Navigation headers, main banners, trust statements |
-| <img src="https://placeholder.com+" width="15" height="15"> **Accent Gold** | High Action | `#F4B400` | `--color-accent` | Reserved strictly for the primary **"Donate"** button |
-| <img src="https://placeholder.com+" width="15" height="15"> **Dark Charcoal** | Typography | `#1F2937` | `--color-text-main` | Primary body reading text, interface structures |
-| <img src="https://placeholder.com+" width="15" height="15"> **Light Slate** | Canvas | `#F8FAFC` | `--color-bg-main` | Full website body background layout layer |
+| **Primary Blue** | Core Brand | `#0B5C8A` | `--color-primary` | Navigation headers, main banners, trust statements |
+| **Accent Gold** | High Action | `#F4B400` | `--color-accent` | Reserved strictly for the primary **"Donate"** button |
+| **Dark Charcoal** | Typography | `#1F2937` | `--color-text-main` | Primary body reading text, interface structures |
+| **Light Slate** | Canvas | `#F8FAFC` | `--color-bg-main` | Full website body background layout layer |
 
 ---
 
